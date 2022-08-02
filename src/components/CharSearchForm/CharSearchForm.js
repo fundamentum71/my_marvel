@@ -94,5 +94,6 @@ const CharSearchForm = () => {
 		</div>
 	);
 };
+//upd
 
 export default CharSearchForm;
