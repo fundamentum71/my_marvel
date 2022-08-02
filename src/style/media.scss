@@ -132,7 +132,7 @@
 				margin-right: auto;
 				margin-left: auto;
 				width: 250px;
-				height: 360px;
+				height: 330px;
 				margin-bottom: 30px;
 			}
 			&__char-img {
@@ -140,8 +140,14 @@
 				margin-right: auto;
 				margin-left: auto;
 				width: 250px;
-				height: 360px;
+				height: 280px;
 				margin-bottom: 30px;
+			}
+			&__info {
+				margin: 15px;
+			}
+			&__back {
+				margin: 15px;
 			}
 		}
 	}
