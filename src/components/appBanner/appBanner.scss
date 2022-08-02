@@ -17,4 +17,19 @@
 			padding-top: 18px;
 		}
 	}
+
+	@media (max-width: 575px) {
+		&__banner {
+			align-items: center;
+			padding: 0 40px;
+			grid-template-columns: 208px auto 133px;
+			img {
+				width: 110px;
+			}
+
+			&-text {
+				display: none;
+			}
+		}
+	}
 }

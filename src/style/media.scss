@@ -67,35 +67,81 @@
 			}
 		}
 
-		.char__content {
-			display: block;
-			margin: 5% auto;
-			width: 385px;
-		}
-		ul.char__grid {
-			display: block;
+		.char {
+			&__content {
+				display: block;
+				margin: 5% auto;
+				width: 385px;
+			}
+			&__info {
+				margin: 30px auto;
+				width: 90%;
+			}
+			&__search-form {
+				width: 90%;
+				margin: 30px auto;
+			}
+			&__item {
+				width: 175px;
+				height: 280px;
+				margin: 20px auto;
+				padding: 0;
+				img {
+					transform: translate(0, 0);
+					width: 100%;
+					height: 185px;
+				}
+			}
+			&__name {
+				font-size: 18px;
+				padding: 15px;
+				line-height: 21px;
+			}
 		}
 
-		.char__list {
+		ul.char__grid {
+			display: flex;
+			flex-wrap: wrap;
 		}
-		.char__info {
-			margin: 30px auto;
-			width: 90%;
-		}
-		.char__search-form {
-			width: 90%;
-			margin: 30px auto;
-		}
+
 		.bg-decoration {
 			display: none;
 		}
-		.char__item {
-			width: 250px;
-			height: 340px;
-			margin: 20px auto;
-			img {
+
+		.comics {
+			&__item {
+				width: 175px;
+				margin-right: auto;
+				margin-left: auto;
+				&-img {
+					width: 100%;
+					height: 260px;
+				}
+			}
+
+			&__grid {
+				display: flex;
+				flex-wrap: wrap;
+			}
+		}
+		.single-comic {
+			display: block;
+			max-width: 400px;
+			&__img {
+				display: block;
+				margin-right: auto;
+				margin-left: auto;
 				width: 250px;
-				height: 250px;
+				height: 360px;
+				margin-bottom: 30px;
+			}
+			&__char-img {
+				display: block;
+				margin-right: auto;
+				margin-left: auto;
+				width: 250px;
+				height: 360px;
+				margin-bottom: 30px;
 			}
 		}
 	}
